@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="1" time="0.420"><testcase classname="test.index_test.SimpleNodeTest" file="test/index_test.py" line="5" name="test_handshake" time="0.03528141975402832"><failure message="NameError: name &apos;fail&apos; is not defined">self = &lt;index_test.SimpleNodeTest testMethod=test_handshake&gt;
+
+    def test_handshake(self):
+        node = SimpleNode(&apos;tbtc.programmingblockchain.com&apos;, testnet=True)
+&gt;       node.handshake()
+
+test/index_test.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;ipynb.fs.full.index.SimpleNode object at 0x7f6f52af44a8&gt;
+
+    &quot;cell_type&quot;: &quot;markdown&quot;,
+    &quot;metadata&quot;: {},
+    &quot;source&quot;: [
+     &quot;## Test Driven Exercise&quot;
+    ]
+&gt;     },
+      {
+       &quot;cell_type&quot;: &quot;code&quot;,
+       &quot;execution_count&quot;: null,
+       &quot;metadata&quot;: {},
+       &quot;outputs&quot;: [],
+       &quot;source&quot;: [
+        &quot;# Exercise 4.1\n&quot;,
+        &quot;\n&quot;,
+        &quot;from network import SimpleNode, VersionMessage\n&quot;,
+        &quot;\n&quot;,
+        &quot;class SimpleNode(SimpleNode):\n&quot;,
+        &quot;\n&quot;,
+        &quot;    def handshake(self):\n&quot;,
+        &quot;        &apos;&apos;&apos;Do a handshake with the other node. Handshake is sending a version message and getting a verack back.&apos;&apos;&apos;\n&quot;,
+        &quot;        # create a version message\n&quot;,
+        &quot;        # send the command\n&quot;,
+        &quot;        # wait for a verack message\n&quot;,
+        &quot;        fail&quot;
+       ]
+      }
+     ],
+     &quot;metadata&quot;: {
+      &quot;kernelspec&quot;: {
+       &quot;display_name&quot;: &quot;Python 3&quot;,
+       &quot;language&quot;: &quot;python&quot;,
+       &quot;name&quot;: &quot;python3&quot;
+      },
+      &quot;language_info&quot;: {
+       &quot;codemirror_mode&quot;: {
+        &quot;name&quot;: &quot;ipython&quot;,
+        &quot;version&quot;: 3
+       },
+       &quot;file_extension&quot;: &quot;.py&quot;,
+       &quot;mimetype&quot;: &quot;text/x-python&quot;,
+       &quot;name&quot;: &quot;python&quot;,
+       &quot;nbconvert_exporter&quot;: &quot;python&quot;,
+       &quot;pygments_lexer&quot;: &quot;ipython3&quot;,
+       &quot;version&quot;: &quot;3.6.6&quot;
+      }
+     },
+     &quot;nbformat&quot;: 4,
+     &quot;nbformat_minor&quot;: 2
+    }
+E   NameError: name &apos;fail&apos; is not defined
+
+index.ipynb:35: NameError</failure></testcase></testsuite>
