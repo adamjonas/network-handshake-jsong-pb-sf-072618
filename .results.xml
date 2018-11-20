@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="1" time="0.420"><testcase classname="test.index_test.SimpleNodeTest" file="test/index_test.py" line="5" name="test_handshake" time="0.03528141975402832"><failure message="NameError: name &apos;fail&apos; is not defined">self = &lt;index_test.SimpleNodeTest testMethod=test_handshake&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="1" time="0.394"><testcase classname="test.index_test.SimpleNodeTest" file="test/index_test.py" line="5" name="test_handshake" time="0.01886129379272461"><failure message="NameError: name &apos;fail&apos; is not defined">self = &lt;index_test.SimpleNodeTest testMethod=test_handshake&gt;
 
     def test_handshake(self):
         node = SimpleNode(&apos;tbtc.programmingblockchain.com&apos;, testnet=True)
@@ -7,7 +7,7 @@
 test/index_test.py:8: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;ipynb.fs.full.index.SimpleNode object at 0x7f6f52af44a8&gt;
+self = &lt;ipynb.fs.full.index.SimpleNode object at 0x7f2b2964e470&gt;
 
     &quot;cell_type&quot;: &quot;markdown&quot;,
     &quot;metadata&quot;: {},
