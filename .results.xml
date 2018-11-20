@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="0.425"><testcase classname="test.index_test.SimpleNodeTest" file="test/index_test.py" line="5" name="test_handshake" time="0.03552889823913574"></testcase></testsuite>
